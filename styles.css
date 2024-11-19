@@ -1,0 +1,60 @@
+body{
+   background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ladoalado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ladoalado2{
+    display: flex;
+    background-color: aliceblue;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    gap: 1rem;
+}
+img{
+    width: 700px;
+    height: 500px;
+    width: fit-content;
+}
+
+hr{
+    border: 1px solid;
+    border-color: rgb(64, 135, 197);
+    width: 35%;
+}
+
+section{
+    border: 1px solid;
+    border-color: rgb(26, 49, 69);
+    margin: 5%;
+    padding: 2%;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    gap: 10px;
+}
+.menu:hover{
+    color: rgb(22, 121, 121);
+    font-size: 18px;
+}
+
+#inicio{
+    margin-top: 0px;
+}
+
+#perfil{
+    width: 50%;
+    height: 50%;
+}
+
+
